@@ -1,0 +1,33 @@
+{
+  "router": {
+    "model": "qwen2.5-coder-3b",
+    "base_url": "http://localhost:11434/v1",
+    "temperature": 0.0,
+    "max_tokens": 32
+  },
+  "planner": {
+    "model": "qwen2.5-coder-7b",
+    "base_url": "http://localhost:11434/v1",
+    "temperature": 0.0,
+    "max_tokens": 2048
+  },
+  "coder": {
+    "model": "qwen2.5-coder-32b",
+    "base_url": "http://localhost:11434/v1",
+    "temperature": 0.0,
+    "max_tokens": 4096
+  },
+  "critic": {
+    "model": "qwen2.5-coder-7b",
+    "base_url": "http://localhost:11434/v1",
+    "temperature": 0.0,
+    "max_tokens": 2048
+  },
+  "repair": {
+    "model": "qwen2.5-coder-32b",
+    "base_url": "http://localhost:11434/v1",
+    "temperature": 0.0,
+    "max_tokens": 4096
+  },
+  "max_repair_rounds": 2
+}
